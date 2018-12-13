@@ -2153,7 +2153,9 @@ body {
 
 a.simple-text {
   color: #fff;
-  text-decoration: none
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
 a.simple-text:hover {
@@ -2164,7 +2166,7 @@ a.simple-text:hover {
 .cid-r3qbNBfJ9S {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #f9f9f9
+  background-color: #fcf9f9
 }
 
 .cid-r3qbNBfJ9S [class*=" socicon-"]:before,
@@ -2245,12 +2247,12 @@ a.simple-text:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #149DCC;
+  background: #EADD0A;
   border-radius: 15px
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #149DCC
+  background: #EADD0A;
 }
 
 @media(max-width:767px) {
@@ -2533,5 +2535,141 @@ a.simple-text:hover {
   100% {
       transform: scale(1.3);
       opacity: 0
+  }
+}
+
+.section-promo {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url(../../images/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
+.section-tours {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.zoom {
+  transition: transform .2s
+}
+
+.zoom:hover {
+  transform: scale(1.15);
+}
+
+.lead.mbr-text.mbr-fonts-style.display-5.p-shadow {
+  /* font-weight: 400; */
+}
+
+.tour-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.tour-section .title {
+  border-bottom: 1px solid #ececec;
+}
+.tour-section .card-wrapper {
+  overflow: hidden;
+  height: 100%;
+  background: #ffffff;
+  color: #444444;
+  padding: 0;
+  border: 1px solid #ececec;
+  transition: all 0.3s;
+}
+.tour-section .card-wrapper:hover {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  margin-top: -0.6rem;
+}
+.tour-section .card-wrapper:hover .price-box {
+  transform: scale(1.2);
+  left: 5px;
+  bottom: 15px;
+}
+.tour-section .display-4 {
+  line-height: 1.1;
+}
+.tour-section .mbr-iconfont {
+  font-size: 1rem;
+  padding-bottom: 3px;
+}
+.tour-section .ico-line-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.tour-section .ico-line {
+  display: flex;
+  justify-content: space-between;
+}
+.tour-section p {
+  line-height: 1.6;
+}
+.tour-section .btn-danger-outline {
+  border: none;
+  background: transparent;
+  font-weight: 400!important;
+}
+.tour-section .card-title {
+  color: #000000;
+  margin: 0;
+  line-height: 1.3;
+  text-align: left;
+}
+.tour-section .card-img {
+  overflow: hidden;
+  min-height: 280px;
+  max-height: 280px;
+  position: relative;
+  border-radius: 0;
+}
+.tour-section .price-box {
+  position: absolute;
+  background: #ff4a52;
+  padding: 0.5rem 1rem;
+  left: 0;
+  bottom: 1rem;
+  transition: all 0.3s;
+}
+.tour-section img {
+  transition: all 0.3s;
+}
+.tour-section h5 {
+  margin: 0;
+}
+.tour-section .card-box {
+  padding: 1.5rem;
+}
+.tour-section .mbr-section-title {
+  margin: 0 auto;
+  color: #000000;
+  text-align: left;
+}
+.tour-section .card-box > p,
+.tour-section .mbr-section-btn {
+  color: #000000;
+  text-align: left;
+}
+.tour-section .mbr-section-sub-title {
+  text-align: center;
+  color: #9e9e9e;
+}
+.tour-section .price {
+  color: #ffffff;
+  text-align: left;
+}
+.tour-section .rev {
+  color: #000000;
+}
+@media (max-width: 576px) {
+  .tour-section .ico-line-wrap {
+    flex-direction: column;
+  }
+  .tour-section .ico-line {
+    justify-content: flex-start;
   }
 }
