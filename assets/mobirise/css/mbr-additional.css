@@ -2719,4 +2719,8 @@ a.simple-text:hover {
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
+
+  .cid-rbJsg4ur9u .full-screen .slider-fullscreen-image {
+    min-height: 140vh;
+  }
 }
