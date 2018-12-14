@@ -208,8 +208,8 @@ body {
 }
 .btn-success,
 .btn-success:active {
-  background-color: #f7ed4a !important;
-  border-color: #f7ed4a !important;
+  background-color: #EADD0A !important;
+  border-color: #EADD0A !important;
   color: #3f3c03 !important;
 }
 .btn-success:hover,
@@ -217,8 +217,8 @@ body {
 .btn-success.focus,
 .btn-success.active {
   color: #3f3c03 !important;
-  background-color: #eadd0a !important;
-  border-color: #eadd0a !important;
+  background-color: #f7ed4a !important;
+  border-color: #f7ed4a !important;
 }
 .btn-success.disabled,
 .btn-success:disabled {
@@ -2166,7 +2166,7 @@ a.simple-text:hover {
 .cid-r3qbNBfJ9S {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #fcf9f9
+  background-color: #fcf9f9;
 }
 
 .cid-r3qbNBfJ9S [class*=" socicon-"]:before,
@@ -2231,11 +2231,6 @@ a.simple-text:hover {
 
 .btn.display-4.btn-white {
   color: black !important;
-}
-
-.btn.display-4.btn-success {
-  background-color: #EADD0A !important;
-  border-color: #EADD0A !important;
 }
 
 ::-webkit-scrollbar {
@@ -2549,7 +2544,7 @@ a.simple-text:hover {
 
 .section-tours {
   padding-top: 50px;
-  padding-bottom: 10px;
+  padding-bottom: 90px;
   background-color: white;
 }
 
@@ -2671,5 +2666,57 @@ a.simple-text:hover {
   }
   .tour-section .ico-line {
     justify-content: flex-start;
+  }
+}
+
+.select-date {
+  cursor: pointer;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px #f2f2f2;
+}
+
+.select-date:hover {
+  color: #149dcc !important;
+}
+
+.btn-success:hover {
+  background-color: #6df74a;
+}
+
+.present {
+  text-align: right;
+}
+
+.collapse.navbar-collapse {
+  padding-right: 10px !important;
+}
+
+.navbar-brand {
+  margin-left: 10px !important;
+}
+
+@media (max-width: 768px) {
+  .hidden-xs {
+    display: none !important;
+  }
+
+  .visible-xs {
+    display: block !important;
+  }
+
+  .section-tours {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+  }
+
+  .present {
+    text-align: center;
+  }
+
+  .btn-success, 
+  .btn-white {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 }

@@ -1,4 +1,12 @@
 $(document).ready(function() {
+    $(".select-date").each(function() {
+        $(this).on("click", function() {
+            $("#callback-modal2").modal('show');
+            var city = $(this).attr("city");
+            $("#inputCity").val(city);
+        });
+    });
+
     $("#btn-callback-carousel1").on("click", function(){
       $("#callback-modal").modal('show');
     });
